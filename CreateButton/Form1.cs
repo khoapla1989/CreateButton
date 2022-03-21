@@ -22,11 +22,12 @@ namespace CreateButton
             AddButton();
         }
         int i = 0;
+        string j = "Happy";
          void AddButton()
         {
             Random random = new Random();
            Button btn = new Button() { 
-               Text =   i.ToString(),  
+               Text = j + i.ToString(),  
                AutoSize = true,
                Location = new Point(random.Next(0,this.Size.Width),random.Next(0,this.Size.Height))
            };
@@ -37,8 +38,8 @@ namespace CreateButton
 
          void Btn_Click(object sender, EventArgs e)
         {
-            Button btn = new Button(); 
-            Message.Show(btn.Text);
+            Button btn = sender as Button; 
+            MessageBox.Show(btn.Text);
         }
     }
 }
