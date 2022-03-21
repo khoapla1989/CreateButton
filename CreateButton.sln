@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateButton", "CreateButton\CreateButton.csproj", "{79768F57-51D9-4BA0-9DD3-88DC8C13D00D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateTextbox", "CreateTextbox\CreateTextbox.csproj", "{DA484CB7-54B0-43FF-8F40-4D559E64C5F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateTextbox", "CreateTextbox\CreateTextbox.csproj", "{DA484CB7-54B0-43FF-8F40-4D559E64C5F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateCheckbox", "CreateCheckbox\CreateCheckbox.csproj", "{8706C6A8-5BD3-4B35-9F0B-229E8F05A836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DA484CB7-54B0-43FF-8F40-4D559E64C5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA484CB7-54B0-43FF-8F40-4D559E64C5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA484CB7-54B0-43FF-8F40-4D559E64C5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8706C6A8-5BD3-4B35-9F0B-229E8F05A836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8706C6A8-5BD3-4B35-9F0B-229E8F05A836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8706C6A8-5BD3-4B35-9F0B-229E8F05A836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8706C6A8-5BD3-4B35-9F0B-229E8F05A836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
